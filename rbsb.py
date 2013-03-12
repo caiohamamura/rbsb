@@ -60,4 +60,4 @@ if __name__ == '__main__':
 	    print rbsb()
 	
 #Reference:
-#1: CAZES, T. B.; COSTA, G. A. O. P.; FEITOSA, R. Q. Automatic evaluation of segmentation parameters. Simposio Brasileiro de Geomatica. Anais... Presidente Prudente, SP: 2007.
+#1: CAZES, T. B.; COSTA, G. A. O. P.; FEITOSA, R. Q. Automatic evaluation of segmentation parameters. Simposio Brasileiro de Geomatica. Anais... Presidente Prudente, SP: 2007
