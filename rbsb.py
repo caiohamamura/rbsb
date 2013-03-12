@@ -1,4 +1,4 @@
-#This is a function based on Reference Boundary Segments Booster [1]
+ï»¿#This is a function based on Reference Boundary Segments Booster [1]
 #It evaluates the goodness of the image segmentation based on reference polygons
 
 from PyQt4.QtGui import QFileDialog, QApplication, QWidget
@@ -53,8 +53,11 @@ def rbsb(path1='', path2=''):
     return rbsb_acc
 
 if __name__ == '__main__':
-	from sys import argv
-    rbsb()
+    from sys import argv
+    if len(argv)==3:
+        print rbsb(argv[1], argv[2])
+    else:
+	    print rbsb()
 	
 #Reference:
-#1: CAZES, T. B.; COSTA, G. A. O. P.; FEITOSA, R. Q. Automatic evaluation of segmentation parameters. Simpósio Brasileiro de Geomática. Anais... Presidente Prudente, SP: 2007.
+#1: CAZES, T. B.; COSTA, G. A. O. P.; FEITOSA, R. Q. Automatic evaluation of segmentation parameters. Simposio Brasileiro de Geomatica. Anais... Presidente Prudente, SP: 2007.
